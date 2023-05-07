@@ -3,7 +3,7 @@ import React from 'react'
 export default function Header() {
   return (
     <div className="font-intersemibold px-10">
-      <div className="flex justify-between">
+      <div className="flex justify-between items-center">
         <div className="py-5 px-10 flex items-center">
           <img src="Logo.png" width="45px" />
           <h1 className="mx-3 text-4xl" style={{color : '#212529'}}>
