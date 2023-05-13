@@ -4,7 +4,7 @@ export default function HeaderBoxTitle() {
     return (
         <div className="p-4">
             <div className="font-semibold pt-24 px-4 text-left">
-                <h1 className="text-4xl">
+                <h1 className="text-4xl transition-transform ease-in-out delay-105">
                     Rediscover the Joy of Socializing
                 </h1>
             </div>
@@ -15,10 +15,10 @@ export default function HeaderBoxTitle() {
                 memories on our social app
             </div>
             <div className="flex px-4 py-10">
-                <div className="w-4/12">
+                <div className="w-4/12 cursor-pointer shadow-xl">
                     <img src="app_store.png" />
                 </div>
-                <div className="w-4/12 mx-3">
+                <div className="w-4/12 mx-3 cursor-pointer shadow-xl">
                     <img src="Google_Play.png" />
                 </div>
             </div>

@@ -3,7 +3,7 @@ import DayCounter from './DayCounter/DayCounter'
 
 export default function DinnerPartyScreenShot() {
     return (
-        <div className="rounded-xl p-3 bg-white shadow-xl" style={{ transform: "rotate(9.13deg)" }}>
+        <div className="rounded-xl p-3 bg-white shadow-2xl" style={{ transform: "rotate(9.13deg)" }}>
             <h1 className="font-intersemibold pt-2 text-xl text-left mb-3 flex items-center">
                 Dinner Party
                 <img src="burger.png" width="20px" height="20px" className="mx-1" />
@@ -43,7 +43,7 @@ export default function DinnerPartyScreenShot() {
             </div>
             <div className="py-2 px-4 flex justify-around items-start">
                 <div className="text-primary text-xs font-semibold px-1">
-                    <div className="hover:bg-green-400" style={{ borderRadius: "14.17px" }}>
+                    <div className="hover:bg-green-400 cursor-pointer" style={{ borderRadius: "14.17px" }}>
                         <img src="Post.png" />
                     </div>
                     <div>
@@ -51,16 +51,8 @@ export default function DinnerPartyScreenShot() {
                     </div>
                 </div>
                 <div className="text-primary text-xs font-semibold px-1">
-                    <div className="hover:bg-green-400" style={{ borderRadius: "14.17px" }}>
+                    <div className="hover:bg-green-400 cursor-pointer" style={{ borderRadius: "14.17px" }}>
                         <img src="GroupChat.png" />
-                    </div>
-                    <div>
-                        Post
-                    </div>
-                </div>
-                <div className="text-primary text-xs font-semibold px-1">
-                    <div className="hover:bg-green-400" style={{ borderRadius: "14.17px" }}>
-                        <img src="Friends.png" />
                     </div>
                     <div>
                         Group
@@ -70,8 +62,19 @@ export default function DinnerPartyScreenShot() {
                     </div>
                 </div>
                 <div className="text-primary text-xs font-semibold px-1">
+                    <div className="hover:bg-green-400 cursor-pointer" style={{ borderRadius: "14.17px" }}>
+                        <img src="Friends.png" />
+                    </div>
                     <div>
-                        <div className="hover:bg-green-400" style={{ borderRadius: "14.17px" }}>
+                        Invite
+                        <div>
+                            Friends
+                        </div>
+                    </div>
+                </div>
+                <div className="text-primary text-xs font-semibold px-1">
+                    <div>
+                        <div className="hover:bg-green-400 cursor-pointer" style={{ borderRadius: "14.17px" }}>
                             <img src="Message.png" />
                         </div>
                     </div>
