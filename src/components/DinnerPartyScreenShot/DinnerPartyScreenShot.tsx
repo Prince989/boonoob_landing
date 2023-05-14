@@ -3,12 +3,12 @@ import DayCounter from './DayCounter/DayCounter'
 
 export default function DinnerPartyScreenShot() {
     return (
-        <div className="rounded-xl p-3 bg-white shadow-2xl" style={{ transform: "rotate(9.13deg)" }}>
+        <div className="rounded-xl fade-in-with-delay p-3 bg-white shadow-2xl" style={{ transform: "rotate(9.13deg)" }}>
             <h1 className="font-intersemibold pt-2 text-xl text-left mb-3 flex items-center">
                 Dinner Party
                 <img src="burger.png" width="20px" height="20px" className="mx-1" />
             </h1>
-            <div className="w-full rounded-xl" style={{ backgroundImage: "url(dinner.gif)", backgroundSize: "cover", backgroundPosition: "center", width: "100%", height: "190px" }} >
+            <div className="w-full rounded-xl move-from-right" style={{ backgroundImage: "url(dinner.gif)", backgroundSize: "cover", backgroundPosition: "center", width: "100%", height: "190px" }} >
             </div>
 
             <div className="flex p-2 text-xs">
@@ -31,8 +31,11 @@ export default function DinnerPartyScreenShot() {
             </div>
 
             <div className="rounded-xl w-full" style={{ background: "linear-gradient(92.41deg, #01C891 4.63%, #01BCC8 96.68%)" }}>
-                <div className="bg-black/20 text-white text-xs rounded-t-xl">
-                    You are going
+                <div className="bg-black/20 text-white flex justify-center text-xs rounded-t-xl">
+                    <img src="smiling-face.gif" width="20px"/>
+                    <div className="">
+                        You are going
+                    </div>
                 </div>
                 <div className="flex justify-center p-2">
                     <DayCounter number={19} title={"Day"} />
@@ -41,7 +44,7 @@ export default function DinnerPartyScreenShot() {
                     <DayCounter number={59} title={"Seconds"} />
                 </div>
             </div>
-            <div className="py-2 px-4 flex justify-around items-start">
+            <div className="py-2 text-center px-4 flex justify-around items-start">
                 <div className="text-primary text-xs font-semibold px-1">
                     <div className="hover:bg-green-400 cursor-pointer" style={{ borderRadius: "14.17px" }}>
                         <img src="Post.png" />
@@ -74,8 +77,8 @@ export default function DinnerPartyScreenShot() {
                 </div>
                 <div className="text-primary text-xs font-semibold px-1">
                     <div>
-                        <div className="hover:bg-green-400 cursor-pointer" style={{ borderRadius: "14.17px" }}>
-                            <img src="Message.png" />
+                        <div className=" cursor-pointer" style={{ borderRadius: "14.17px" }}>
+                            <img src="Message.png" className="hover:bg-green-400 rounded-xl" />
                         </div>
                     </div>
                     <div>
@@ -92,7 +95,7 @@ export default function DinnerPartyScreenShot() {
                     <img src="location.png" />
                 </div>
                 <div className="p-1 text-left">
-                    4321 Baltimore street Los 
+                    4321 Baltimore street Los
                     <br />
                     Angeles, CA
                 </div>

@@ -1,10 +1,8 @@
-import React from 'react'
-
 export default function HeaderBoxTitle() {
     return (
         <div className="p-4">
             <div className="font-semibold pt-24 px-4 text-left">
-                <h1 className="text-4xl transition-transform ease-in-out delay-105">
+                <h1 className="text-4xl title-anim">
                     Rediscover the Joy of Socializing
                 </h1>
             </div>

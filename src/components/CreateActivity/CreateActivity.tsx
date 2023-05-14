@@ -1,7 +1,7 @@
 
 export default function CreateActivity() {
     return (
-        <div className="relative">
+        <div className="relative fade-in">
             <div className="rounded-xl absolute shadow-xl" style={{width : "250px", height : "98%",right : "30px", transform: "rotate(-9.01deg)", backgroundColor : "#D6D6D6"}}>
 
             </div>
@@ -9,7 +9,7 @@ export default function CreateActivity() {
 
             </div> 
             <div className="rounded-xl p-3 shadow-[-30px_35px_30px_-15px_rgba(0,0,0,0.2)] h-81" style={{ width: "250px", transform: "rotate(-9.01deg)", backgroundColor: "#4955D2" }}>
-                <img src="handgif.png" className="absolute top-0 right-0 rounded-t-xl" style={{ zIndex: "-100" }} />
+                <img src="magichand.gif" className="absolute w-8/12 top-0 right-0 rounded-t-xl" style={{ zIndex: "-100" }} />
                 <div className="flex pt-20">
                     <img src="ellipse300.png" className="mr-0.5" />
                     <img src="ellipse301.png" className="mr-0.5" />
