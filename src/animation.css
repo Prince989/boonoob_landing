@@ -14,7 +14,7 @@
 }
 
 .title-anim{
-    animation: popupTitle 1s ease-out 0s 1;
+    animation: popupTitle 4s ease-out 0s 1;
 }
 /* Fade In With Delay */
 
@@ -93,7 +93,8 @@
     }
 }
 
-.going-up-down{
+.going-up-down
+{
     animation: 4s linear infinite upDown ;
 }
 
@@ -103,9 +104,11 @@
 @keyframes slideIn {
     0%{
         transform: translateX(-200%) rotate(-20deg);
+        opacity: 100%;
     }
     100%{
         transform: translateX(0%) rotate(0deg);
+        opacity: 100%;
     }
 }
 

@@ -7,9 +7,11 @@ import ThirdSection from './components/ThirdSection/ThirdSection';
 import FourthSection from './components/FourthSection/FourthSection';
 import FifthSection from './components/FifthSection/FifthSection';
 import SixthSection from './components/SixthSection/SixthSection';
+import SeventhSection from './components/SeventhSection/SeventhSection';
 
 
 function App() {
+  
   return (
     <div className="App">
       <div className="h-screen">
@@ -19,7 +21,7 @@ function App() {
       <div className="mt-36">
         <SecondSection />
       </div>
-      <div className="mt-36">
+      <div className="mt-12">
         <ThirdSection />
       </div>
       <div className="mt-12">
@@ -30,6 +32,9 @@ function App() {
       </div>
       <div className="mt-12">
         <SixthSection />
+      </div>
+      <div className="mt-12">
+        <SeventhSection />
       </div>
     </div>
   );

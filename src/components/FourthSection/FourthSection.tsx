@@ -19,7 +19,7 @@ export default function FourthSection() {
                     </p>
                 </div>
                 <div className="relative">
-                    <img src="lock.png" className="absolute top-0 right-0" />
+                    <img src="lock.png" className="absolute w-1/12 top-0 right-0" style={{filter : "drop-shadow(-1px 1px 1px #000a);"}} />
                 </div>
             </div>
         </div>

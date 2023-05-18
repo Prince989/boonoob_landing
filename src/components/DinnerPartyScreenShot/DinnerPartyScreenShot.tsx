@@ -47,7 +47,7 @@ export default function DinnerPartyScreenShot() {
             <div className="py-2 text-center px-4 flex justify-around items-start">
                 <div className="text-primary text-xs font-semibold px-1">
                     <div className="hover:bg-green-400 cursor-pointer" style={{ borderRadius: "14.17px" }}>
-                        <img src="Post.png" />
+                        <img width="45px" src="Post.png" />
                     </div>
                     <div>
                         Post
@@ -55,7 +55,7 @@ export default function DinnerPartyScreenShot() {
                 </div>
                 <div className="text-primary text-xs font-semibold px-1">
                     <div className="hover:bg-green-400 cursor-pointer" style={{ borderRadius: "14.17px" }}>
-                        <img src="GroupChat.png" />
+                        <img width="45px" src="GroupChat.png" />
                     </div>
                     <div>
                         Group
@@ -66,7 +66,7 @@ export default function DinnerPartyScreenShot() {
                 </div>
                 <div className="text-primary text-xs font-semibold px-1">
                     <div className="hover:bg-green-400 cursor-pointer" style={{ borderRadius: "14.17px" }}>
-                        <img src="Friends.png" />
+                        <img width="45px" src="Friends.png" />
                     </div>
                     <div>
                         Invite
@@ -78,7 +78,7 @@ export default function DinnerPartyScreenShot() {
                 <div className="text-primary text-xs font-semibold px-1">
                     <div>
                         <div className=" cursor-pointer" style={{ borderRadius: "14.17px" }}>
-                            <img src="Message.png" className="hover:bg-green-400 rounded-xl" />
+                            <img width="45px" src="Message.png" className="hover:bg-green-400 rounded-xl" />
                         </div>
                     </div>
                     <div>

@@ -9,7 +9,7 @@ export default function FifthSection() {
                                 <h1 className="w-9/12 text-4xl font-intersemibold">
                                     Stay connected effortlessly
                                 </h1>
-                                <div className="w-3/12">
+                                <div className="w-2/12">
                                     <img src="love.png" />
                                 </div>
                             </div>
@@ -20,7 +20,7 @@ export default function FifthSection() {
                             </div>
                         </div>
                         <div className="flex justify-center">
-                            <img src="popcorn.png" />
+                            <img src="popcorn.png" className="w-3/12" />
                         </div>
                     </div>
                         <div className="w-3/12">

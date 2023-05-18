@@ -15,7 +15,7 @@ export default function ThirdSection() {
                         </div>
                     </div>
                     <div className="flex justify-end relative">
-                        <img src="map.png" className="absolute" />
+                        <img src="map.png" className="absolute w-1/2" />
                         <img src="tail.png" className="absolute top-20" />
                     </div>
                 </div>

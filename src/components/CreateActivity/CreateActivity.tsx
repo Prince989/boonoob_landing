@@ -2,11 +2,9 @@
 export default function CreateActivity() {
     return (
         <div className="relative fade-in h-full">
-            <div className="rounded-xl absolute shadow-xl xl:right-20 lg:right-2" style={{minWidth: "200px",maxWidth: "250px", height : "98%", transform: "rotate(-9.01deg)", backgroundColor : "#D6D6D6"}}>
-
+            <div className="rounded-xl absolute shadow-xl xl:right-20 lg:right-2" style={{minWidth: "200px",maxWidth: "250px", height : "98%", transform: "rotate(-9.01deg)", backgroundColor : "#3D46A4"}}>
             </div>
-            <div className="rounded-xl absolute shadow-xl xl:right-16 lg:right-1" style={{minWidth: "200px",maxWidth: "250px", height : "98%", transform: "rotate(-9.01deg)",backgroundColor : "#EEEEEE"}}>
-
+            <div className="rounded-xl absolute shadow-xl xl:right-16 lg:right-1" style={{minWidth: "200px",maxWidth: "250px", height : "98%", transform: "rotate(-9.01deg)",backgroundColor : "#414BAF"}}>
             </div> 
             <div className="rounded-xl p-3 shadow-[-30px_35px_30px_-15px_rgba(0,0,0,0.2)] h-81" style={{ minWidth: "200px",maxWidth: "250px", transform: "rotate(-9.01deg)", backgroundColor: "#4955D2" }}>
                 <img src="magichand.gif" className="absolute w-8/12 top-0 right-0 rounded-t-xl" style={{ zIndex: "-100" }} />

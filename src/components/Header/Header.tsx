@@ -12,14 +12,14 @@ export default function Header() {
         </div>
 
         <div className="flex font-intermedium items-center text-sm px-5">
-          <div className="flex mx-10">
+          {/* <div className="flex mx-10">
             <button className="mx-3 hover:underline">
               Home
             </button>
             <button className="mx-3 hover:underline">
               Read the blog
             </button>
-          </div>
+          </div> */}
 
           <div className="text-center">
             <button className="bg-primary py-4 px-10 text-center transition-all ease-in-out hover:scale-105 scale-100 w-full text-white rounded-xl shadow-md">
