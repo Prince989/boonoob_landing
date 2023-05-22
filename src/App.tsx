@@ -8,10 +8,12 @@ import FourthSection from './components/FourthSection/FourthSection';
 import FifthSection from './components/FifthSection/FifthSection';
 import SixthSection from './components/SixthSection/SixthSection';
 import SeventhSection from './components/SeventhSection/SeventhSection';
+import EighthSection from './components/EighthSection/EighthSection';
+import Footer from './components/Footer/Footer';
 
 
 function App() {
-  
+
   return (
     <div className="App">
       <div className="h-screen">
@@ -36,6 +38,10 @@ function App() {
       <div className="mt-12">
         <SeventhSection />
       </div>
+      <div className="mt-12">
+        <EighthSection />
+      </div>
+      <Footer />
     </div>
   );
 }

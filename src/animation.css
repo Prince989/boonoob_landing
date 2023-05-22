@@ -165,3 +165,54 @@
     opacity: 0%;
     animation: 2s ease-in-out 9s 1 forwards slideIn4 ;
 }
+
+@keyframes rotate-slide-in {
+    0%{
+        transform: translate(50%,-100%) rotate(18deg);
+        opacity: 0%;
+    }
+    100%{
+        transform: translate(0%,0%) rotate(7.26deg);
+        opacity: 100%;
+    }
+}
+
+.rotate-slide-in{
+    opacity: 0%;
+    animation: 2s ease-out 0s 1 forwards rotate-slide-in ;
+}
+
+
+@keyframes rotate-slide-in-2 {
+    0%{
+        transform: translate(-50%,-60%) rotate(-18deg);
+        opacity: 0%;
+    }
+    100%{
+        transform: translate(0%,0%) rotate(-7.58deg);
+        opacity: 100%;
+    }
+}
+
+.rotate-slide-in-2{
+    opacity: 0%;
+    animation: 2s ease-out 0s 1 forwards rotate-slide-in-2 ;
+}
+
+
+@keyframes rotate-slide-in-3 {
+    0%{
+        transform: translate(50%,-60%) rotate(25deg);
+        opacity: 0%;
+    }
+    100%{
+        transform: translate(-20%,-20%) rotate(6.29deg);
+        opacity: 100%;
+    }
+}
+
+.rotate-slide-in-3{
+    opacity: 0%;
+    animation: 2s ease-out 0s 1 forwards rotate-slide-in-3;
+}
+

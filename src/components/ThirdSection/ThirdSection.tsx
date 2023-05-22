@@ -21,7 +21,10 @@ export default function ThirdSection() {
                 </div>
             </div>
             <div className="w-1/2 flex justify-center p-10">
-                <img src="fi2.png" className="w-10/12" />
+                {/* <img src="fi2.png" className="w-10/12" /> */}
+                <video autoPlay muted>
+                    <source src="sec3.mp4" type='video/mp4' />
+                </video>
             </div>
         </div>
     )

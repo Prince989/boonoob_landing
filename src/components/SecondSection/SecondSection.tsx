@@ -11,7 +11,7 @@ export default function SecondSection() {
                 if (entry.isIntersecting)
                     setIsVisible(entry.isIntersecting);
             },
-            { threshold: 0.8 } // Adjust the threshold as needed
+            { threshold: 0.8 }
         );
 
         if (boxRef.current) {
