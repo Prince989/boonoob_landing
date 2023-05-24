@@ -2,8 +2,8 @@ import React from 'react'
 
 export default function SeventhSection() {
     return (
-        <div className="flex justify-between pb-36">
-            <div className="w-4/12 pl-32 relative">
+        <div className="flex justify-between items-center pb-12">
+            <div className="w-5/12 pl-32 relative">
                 <h1 className="text-4xl font-intersemibold">
                     Earn while you socialize
                 </h1>
@@ -15,8 +15,10 @@ export default function SeventhSection() {
                     Download Now
                 </button>
             </div>
-            <div className="w-8/12">
-
+            <div className="w-7/12 overflow-hidden">
+                <video muted loop autoPlay className="-mb-4">
+                    <source src="section3.mp4" type='video/mp4' />
+                </video>
             </div>
         </div>
     )

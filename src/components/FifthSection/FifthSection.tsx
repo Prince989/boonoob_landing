@@ -1,6 +1,6 @@
 export default function FifthSection() {
     return (
-        <div className="flex justify-between">
+        <div className="flex justify-between items-center">
             <div className="w-1/2 pl-32 py-20">
                 <div className="flex items-center">
                     <div className="flex w-9/12 flex-col items-center">
@@ -28,8 +28,10 @@ export default function FifthSection() {
                         </div>
                 </div>
             </div>
-            <div className="w-1/2">
-
+            <div className="w-1/2 overflow-hidden">
+                <video muted autoPlay className="-mb-3">
+                    <source src="section2.mp4" type='video/mp4' />
+                </video>
             </div>
         </div>
     )
